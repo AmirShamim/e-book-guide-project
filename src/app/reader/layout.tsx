@@ -10,7 +10,7 @@ export default function ReaderLayout({
   const chapters = getChapters();
 
   return (
-    <div className="flex min-h-screen bg-background text-foreground">
+    <div className="flex h-screen bg-background text-foreground overflow-hidden">
       {/* Sidebar */}
       <aside className="w-80 border-r border-white/5 bg-[#0a0a0a] hidden md:flex flex-col sticky top-0 h-screen">
         <div className="p-6 border-b border-white/5">
